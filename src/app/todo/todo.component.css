@@ -1,0 +1,47 @@
+tr:nth-child(even){
+    background-color: darksalmon;
+}
+.head{
+    /* position: sticky;
+    top: 150px; */
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+input{
+    padding: 10px;
+    width: 400px;
+    margin: 10px 0px;
+}
+/* table{
+    margin-top: 70px;
+} */
+.add{
+    margin: 5px;
+    padding: 12px;
+    border: 1px solid green;
+    background-color: lightgreen;
+}
+select{
+    margin: 5px;
+    padding: 12px;
+    border: 1px solid blue;
+    background-color: aqua;
+}
+.edit{
+    width: 40px;
+    border-radius: 20px;
+}
+.delete{
+    width: 40px;
+    border-radius: 20px;
+}
+.search{
+    text-align: center;
+    position: fixed;
+    top: 75px;
+    width: 100%;
+}

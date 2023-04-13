@@ -1,0 +1,339 @@
+body {
+    margin: 0px;
+}
+
+.image_vector {
+    width: 600px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.image_vector1 {
+    width: 745px;
+    position: absolute;
+    top: -150px;
+    z-index: 3;
+}
+
+.image_vector2 {
+    width: 550px;
+    position: absolute;
+    top: 27px;
+    left: 36px;
+}
+
+.ourExpects {
+    font-size: 36px;
+}
+
+.expects_img1 {
+    /* width:160px; */
+    height: 150px;
+}
+
+.bg-section {
+    background-color: rgb(255, 210, 230, 0.4);
+    padding: 100px 0;
+    /* margin-top: -50px; */
+    position: relative;
+    top: -150px;
+    margin-left: 180px;
+    border-top-left-radius: 276px;
+
+}
+
+.bg-white {
+    background-color: white;
+    padding: 16px;
+    border-radius: 6px;
+    height: 245px;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 600;
+    float: left;
+}
+
+.heading {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container1 {
+    background-color: rgba(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.quotations{
+    border: 0.5px solid silver;
+    border-style: dotted;
+    height: 200px;
+    padding: 15px;
+}
+
+.q1{
+    width: 30px;
+    float: left;
+}
+
+.q_text{
+    text-align: start;
+    font-size: 15px;
+}
+.container2 {
+    background-color: black;
+    border-top-right-radius: 192px;
+    height: 440px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+}
+
+.map {
+    margin-top: 30px;
+    height: 500px;
+}
+
+.map img {
+    width: 384px;
+    height: 306px;
+
+}
+
+.head {
+    margin-top: 30px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+    margin: 10px;
+}
+
+.dash_nav span {
+    position: relative;
+    left: 200px;
+    font-weight: 700;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 40px;
+    margin: 0px 10px;
+}
+
+.image2 {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    width: 10px;
+}
+
+p {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h4 {
+    font-size: 50px;
+    font-style: inherit;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -20px;
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+
+}
+
+.right_section {
+    float: right;
+
+
+}
+
+.orange {
+    position: absolute;
+    top: -66px;
+    right: 0;
+    width: 530px;
+    height: 500px;
+}
+
+.circle {
+    position: absolute;
+    width: 350px;
+    top: 70px;
+
+}
+
+.Vector {
+    position: absolute;
+    width: 300px;
+    left: 100px;
+    top: 15px;
+}
+
+.men {
+    position: absolute;
+    width: 500px;
+    top: 50px;
+}
+
+.ellips11{
+    width:400px;
+    /* position: absolute; */
+    /* right: 0px; */
+    position: relative;
+    left: 280px;
+    z-index: -1;
+    top: 100px;
+}
+.section-head{
+position: relative;
+top:150px;
+z-index: 1;
+}
+.blue {
+    width: 84%;
+    /* height: 370px; */
+    border-top-right-radius: 200px;
+    background-color: skyblue;
+    margin: 50px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.website_desidn,
+.web_development,
+.mobile {
+    width: 249px;
+    height: 153px;
+    border: 1px solid silver;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 130px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.rocket{
+    width: 249px;
+    height: 153px;
+    border: 1px solid silver;
+    background-color: white;
+    border-radius: 10px;
+     position: relative;
+    top: 130px;
+    left: 660px; 
+    padding: 10px;
+    font-size: 17px;
+}
+
+.globe,
+.computer {
+    width: 30px;
+    height: 30px;
+    background-color: hotpink;
+    border-radius: 5px;
+}
+
+.mobile_phone {
+    width: 30px;
+    height: 30px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.third-section {
+    position: relative;
+}
+.map_text{
+    width: 200px;
+    height: 85px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    padding: 5px;
+}
+
+.arrow{
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+h3{
+    margin-top: 10px;
+}
+/* .image_vector {
+    top: 0;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+}
+
+.image_vector1 {
+    top: 0;
+    width: 700px;
+    position: absolute;
+    z-index: 3;
+} */

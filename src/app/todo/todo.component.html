@@ -1,0 +1,31 @@
+<div class="search">
+    <input type="text" name="todo" placeholder="Enter your todo..." [(ngModel)]="data">
+    <select name="status" id="" [(ngModel)]="status">
+        <option value="true">True</option>
+        <option value="false">False</option>
+    </select>
+    <button *ngIf="!editTodo" class="add" (click)="add(data,status)">Add</button>
+    <button *ngIf="editTodo" class="add" (click)="update(data)">Update</button>
+</div>
+<table class="table table-bordered table-striped">
+    <tr class="head">
+        <th>Id</th>
+        <th>UserId</th>
+        <th>Todo</th>
+        <th>Status</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <tr *ngFor="let t of todoData;let i=index">
+        <td>{{t.id}}</td>
+        <td>{{t.userId}}</td>
+        <td>{{t.todo}}</td>
+        <td>{{t.completed}}</td>
+        <td><img class="edit" (click)="edit(t)"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3CgemTj9scqPsr4H-p9IUCZEVJ7AKSsaAhZd4nVws-pVJXikalYuriOQNefMaT42P5qc&usqp=CAU"
+                alt=""></td>
+        <td><img class="delete" (click)="delete(i)"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVhDSYCUzsTblrPZctePDJl3Eb7BUiQIxa1w&usqp=CAU"
+                alt=""></td>
+    </tr>
+</table>

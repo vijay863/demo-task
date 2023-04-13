@@ -1,0 +1,16 @@
+<form [formGroup]="userForm" (ngSubmit)="submit()">
+    <div>
+        <div class="form-group col-4">
+            <label for="">Username</label>
+            <input type="text" placeholder="Enter your name" name="username"
+                formControlName="username" class="form-control">
+        </div>
+        <div class="form-group col-4">
+            <label for="">Password</label>
+            <input type="password" name="password" placeholder="Enter your password" formControlName="password" class="form-control">
+        </div>
+    </div>
+    <button class="btn btn-primary" type="submit" >Login</button>
+
+    <div style="color:red;" *ngIf="errorStatus">{{errorMessage}}</div>
+</form>

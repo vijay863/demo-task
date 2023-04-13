@@ -1,0 +1,13 @@
+nav{
+    background-color:gray;
+    padding: 20px 0px;
+    position: sticky;
+    top: 0px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0px 30px;
+    color: white;
+    cursor: pointer;
+}
