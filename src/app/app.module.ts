@@ -10,7 +10,6 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { TodoComponent } from './todo/todo.component';
 import { HomeComponent } from './home/home.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { DashboardHomeComponent } from './dashboard-home/dashboard-home.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +17,7 @@ import { DashboardHomeComponent } from './dashboard-home/dashboard-home.componen
     TodoComponent,
     HomeComponent,
     DashboardComponent,
-    DashboardHomeComponent
+    
   ],
   imports: [
     BrowserModule,

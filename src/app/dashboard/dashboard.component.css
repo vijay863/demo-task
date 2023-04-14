@@ -28,14 +28,24 @@ body {
 }
 
 .expects_img1 {
-    /* width:160px; */
     height: 150px;
 }
 
+.top_heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.monial{
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+
+}
 .bg-section {
     background-color: rgb(255, 210, 230, 0.4);
     padding: 100px 0;
-    /* margin-top: -50px; */
     position: relative;
     top: -150px;
     margin-left: 180px;
@@ -44,10 +54,8 @@ body {
 }
 
 .bg-white {
-    background-color: white;
-    padding: 16px;
     border-radius: 6px;
-    height: 245px;
+    height: 220px;  
 }
 
 .heading {
@@ -61,7 +69,7 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .clients {
@@ -127,18 +135,8 @@ body {
     color: black;
     padding: 15px;
     width: 150px;
+    height: 60px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 a {
     margin: 10px;
@@ -149,7 +147,15 @@ a {
     left: 200px;
     font-weight: 700;
 }
+h1.heading{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+     font-size: 35px;
 
+
+}
 .parent {
     position: relative;
     top: 0;
@@ -176,7 +182,7 @@ p {
 }
 
 h1 {
-    font-size: 4.5rem;
+    font-size: 67px;
 }
 
 h4 {
@@ -195,12 +201,10 @@ h4 {
     display: flex;
     justify-content: space-between;
     float: right;
-
 }
 
 .right_section {
     float: right;
-
 
 }
 
@@ -223,7 +227,7 @@ h4 {
     position: absolute;
     width: 300px;
     left: 100px;
-    top: 15px;
+    top: 14px;
 }
 
 .men {
@@ -234,8 +238,6 @@ h4 {
 
 .ellips11{
     width:400px;
-    /* position: absolute; */
-    /* right: 0px; */
     position: relative;
     left: 280px;
     z-index: -1;
@@ -248,16 +250,15 @@ z-index: 1;
 }
 .blue {
     width: 84%;
-    /* height: 370px; */
     border-top-right-radius: 200px;
     background-color: skyblue;
     margin: 50px 0px 0px;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     gap: 20px;
 }
 
-.website_desidn,
+.website_design,
 .web_development,
 .mobile {
     width: 249px;
@@ -267,21 +268,22 @@ z-index: 1;
     border-radius: 10px;
     position: relative;
     top: 130px;
-    padding: 10px;
-    font-size: 17px;
+    font-size: 3px;
+    padding: 12px;
 }
 
 .rocket{
-    width: 249px;
-    height: 153px;
+    border-radius: 6px;
+    height: 160px;
+    width:310px;    
     border: 1px solid silver;
     background-color: white;
     border-radius: 10px;
      position: relative;
     top: 130px;
-    left: 660px; 
-    padding: 10px;
-    font-size: 17px;
+    left: 600px; 
+    font-size: 3px;
+    padding: 12px;;
 }
 
 .globe,
@@ -306,6 +308,7 @@ z-index: 1;
     width: 200px;
     height: 85px;
     background-color: white;
+    
     color: black;
     position: absolute;
     top: 15px;
@@ -322,18 +325,11 @@ z-index: 1;
 }
 
 h3{
-    margin-top: 10px;
+    margin-top: -8px;
 }
-/* .image_vector {
-    top: 0;
-    width: 200px;
-    position: absolute;
-    z-index: 1;
+input{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: 1px solid white
 }
-
-.image_vector1 {
-    top: 0;
-    width: 700px;
-    position: absolute;
-    z-index: 3;
-} */

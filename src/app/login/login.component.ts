@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators,FormControl } from '@angular/forms';
 import { AuthenticationService } from '../authentication.service';
 
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -28,6 +29,7 @@ export class LoginComponent {
     this.auth.login(this.userForm.value).subscribe(result=>{
         console.log(result)
         this.errorStatus = false;
+
     },error=>{
       if(error.status == 400){
         this.errorStatus = true;
